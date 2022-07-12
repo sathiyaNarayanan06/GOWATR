@@ -107,6 +107,7 @@ public class MainActivity extends AppCompatActivity {
 			}
 		};
 		_timer.schedule(tim, (int)(5000));
+		int b;
 	}
 	
 	
@@ -160,4 +161,4 @@ public class MainActivity extends AppCompatActivity {
 	public int getDisplayHeightPixels() {
 		return getResources().getDisplayMetrics().heightPixels;
 	}
-}
+}
